@@ -13,7 +13,7 @@ La programación del dispositivo se va a realizar mediante el framework de Ardui
 
 ## Periodo de muestreo determinista
 
-
+ 
 
 
 
