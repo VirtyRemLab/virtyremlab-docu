@@ -376,7 +376,13 @@ export default function MarkdownComponent() {
 
 
 ```
+## Problemas con OneDrive Google Drive
 
+La carpeta node_modules contine muchos archivos. Esto provoca que los servicios en la nube utilicen muchos recursos del ordenador de desarrollo para sincronizar tal magnitud de archivos. Para resolver esto se mueve la carpeta ```node_modules```fuera del directorio de la nube y se realiza un enlace simbólico:
+
+```bashrc
+ln -s /Users/Documents/React/VirtyRemLab-frontend/node_modules/ .
+```
 
 
 [Página principal](../../README.md)
