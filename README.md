@@ -9,6 +9,7 @@ Este proyecto permite realizar prácticas de laboratorio en asignaturas de ingen
 
 1. [Arquitectura incial del proyecto](docs/arquitectura.md)
 2. [Frontends](docs/frontends/frontends.md)
+2. [Despliegue](docs/despliegue/despliegue.md)
 ---
 ## 🔬 Dispositivos probados
 1. [ESP32](docs/devices/ESP32.md)
