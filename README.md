@@ -14,6 +14,9 @@ Este proyecto permite realizar prácticas de laboratorio en asignaturas de ingen
 ## 🔬 Dispositivos probados
 1. [ESP32](docs/devices/ESP32.md)
 
+## 🛠 Procedimientos transversales
+1. [Crear archivos de requisitos desde entornos anaconda / pip](docs/procedimientos/requirements.md)
+
 
 ## 📝 Notas
 - Este es un proyecto en evolución. 
