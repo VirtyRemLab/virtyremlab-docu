@@ -62,3 +62,22 @@ async def redirect_404_to_root(request, exc):
 ```
 
 
+## Contenedores docker y microservicios
+
+El diseño del servicio es dividido en un conjunto de microservicios. Estos microservicios se implementan como contenedores docker que se comunican entre ellos mediante una red docker. La aplicación cuenta con los siguientes servicios:
+
+1. Backend.
+2. Gateway para la comunicación con los dispositivos.
+3. Servicio de medios (cámaras).
+4. Servidor de autentificación (pendiente de implementación).
+
+
+En esta página se indican los detalles sobre la creación de las imágenes y los contenedores docker para el correcto despliegue de la aplicación. 
+
+
+## Imagen backend
+El código necesario para crear la imagen del backend se encuentra en el repositorio virtyremlab-web-fastapi-backend. 
+
+
+
+
