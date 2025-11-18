@@ -11,8 +11,9 @@ Este proyecto permite realizar prácticas de laboratorio en asignaturas de ingen
 2. [Frontends](docs/frontends/frontends.md)
 2. [Despliegue](docs/despliegue/despliegue.md)
 ---
-## 🔬 Dispositivos probados
+## 🔬 Dispositivos 
 1. [ESP32](docs/devices/ESP32.md)
+2. [Cámara IP Tapo C210](docs/devices/tapo210.md)
 
 ## 🛠 Procedimientos transversales
 1. [Crear archivos de requisitos desde entornos anaconda / pip](docs/procedimientos/requirements.md)

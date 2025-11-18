@@ -81,3 +81,23 @@ El código necesario para crear la imagen del backend se encuentra en el reposit
 
 
 
+## Componer todos los servicios
+
+Para que todos los contenedores se comuniquen entre sí, debemos incluir una red de docker:
+
+
+```bash
+docker network create virtyremlab-net
+```
+
+Un ejemplo de cómo sería una comunicación entre dos contenedores en nuestro sistema:
+
+```bash
+docker run -name nats -p 4222:4222 --network virtyremlab-net -ti nats:latest 
+```
+
+```bash
+docker run -d -p 8001:8000 -p 8765:8765 --network virtyremlab-net --name gateway-esp-aeropendulo gateway-esp-aeropendulo:v0.1
+```
+
+
