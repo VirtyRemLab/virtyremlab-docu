@@ -13,7 +13,7 @@ El acceso a la plataforma está disponible a través del siguiente [enlace](http
 ## [ 📒 Documentación](./docs/Documentación.md)
 
 
-## [ 🎥 Videos explicativos](./docs/Documentación.md)
+## [ 🎥 Videos explicativos](https://unioviedo-my.sharepoint.com/:f:/g/personal/navarroangel_uniovi_es/Ej-4pr6jS75FjqQoov1IV18BZnc8wSPRaSxQmKaEfepj9w?e=iamokn)
 
 
 ## 🚧 En construcción
